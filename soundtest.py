@@ -4,4 +4,4 @@ winsound.PlaySound('arena.wav',  winsound.SND_ALIAS | winsound.SND_ASYNC | winso
 time.sleep(5)
 winsound.PlaySound('doki.wav', winsound.SND_ASYNC)
 time.sleep(5)
-winsound.PlaySound('arena.wav',  winsound.SND_ALIAS | winsound.SND_ASYNC | winsound.SND_LOOP)
+winsound.PlaySound('arena.wav',  winsound.SND_ALIAS | winsound.SND_ASYNC | winsound.SND_LOOP) 

@@ -9,7 +9,7 @@ import time
 import random
 import os
 def main():
-	doki = False
+	doki = False 
 	playthru = 0
 	try:
 		import winsound

@@ -8,7 +8,7 @@ CS = 30 # Cell Size (in pixels)
 
 # Cell class for each cell of the screen grid
 class Cell(object):
-	# function init()
+	# function init() 
 	# initializes location from parameters x, y, as well as fill and color
 	# uses a Rectangle object from graphics.py
 	def __init__(self, x, y):

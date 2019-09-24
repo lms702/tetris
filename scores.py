@@ -7,7 +7,7 @@ class Scores(object):
 	def __init__(self):
 		with open('scores.csv', 'r') as ifile:
 			self.__scoreList__ = []
-			for line in ifile:
+			for line in ifile: 
 				lineArr = line.split(',')
 				if len(lineArr) == 2:
 					lineArr[1] = int(lineArr[1])
